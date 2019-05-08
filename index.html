@@ -229,6 +229,132 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://bboyzjay.com/2019/05/08/post学生成绩管理系统需求分析/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zjay">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LZJ">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/05/08/post学生成绩管理系统需求分析/" itemprop="url">学生成绩管理系统需求分析</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-05-08T20:17:07+08:00">
+                2019-05-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h2><h3 id="学生成绩管理是学校中的一项重要内容。目前，我国小学初中以及大中专院校的学生成绩管理水平普遍不高。在当今信息时代，随着办学规模扩大和招生人数的增加，学生成绩也越来越多，传统的成绩管理方式浪费了许多人力物力，单靠老师去一个一个看和统计肯定是不合理的，这样成绩的准确率也会降低，已不能适应时代的发展，所以建立一个学生成绩管理系统是非常必要的。"><a href="#学生成绩管理是学校中的一项重要内容。目前，我国小学初中以及大中专院校的学生成绩管理水平普遍不高。在当今信息时代，随着办学规模扩大和招生人数的增加，学生成绩也越来越多，传统的成绩管理方式浪费了许多人力物力，单靠老师去一个一个看和统计肯定是不合理的，这样成绩的准确率也会降低，已不能适应时代的发展，所以建立一个学生成绩管理系统是非常必要的。" class="headerlink" title="学生成绩管理是学校中的一项重要内容。目前，我国小学初中以及大中专院校的学生成绩管理水平普遍不高。在当今信息时代，随着办学规模扩大和招生人数的增加，学生成绩也越来越多，传统的成绩管理方式浪费了许多人力物力，单靠老师去一个一个看和统计肯定是不合理的，这样成绩的准确率也会降低，已不能适应时代的发展，所以建立一个学生成绩管理系统是非常必要的。"></a>学生成绩管理是学校中的一项重要内容。目前，我国小学初中以及大中专院校的学生成绩管理水平普遍不高。在当今信息时代，随着办学规模扩大和招生人数的增加，学生成绩也越来越多，传统的成绩管理方式浪费了许多人力物力，单靠老师去一个一个看和统计肯定是不合理的，这样成绩的准确率也会降低，已不能适应时代的发展，所以建立一个学生成绩管理系统是非常必要的。</h3><h2 id="功能分析"><a href="#功能分析" class="headerlink" title="功能分析"></a>功能分析</h2><h3 id="系统功能基本要求："><a href="#系统功能基本要求：" class="headerlink" title="系统功能基本要求："></a>系统功能基本要求：</h3><ol>
+<li>学生信息，学号、姓名、性别、专业、年级等；</li>
+<li>学生成绩信息，包括学号、课程编号、课程名称、分数等。</li>
+<li>课程信息，包括课程编号、课程名称、任课教师等。</li>
+<li>对学生成绩的查询（不能任意修改）、统计，并将结果输出。</li>
+</ol>
+<h2 id="各模块功能："><a href="#各模块功能：" class="headerlink" title="各模块功能："></a>各模块功能：</h2><p>1.登录界面：登录界面是有帐号，密码两个 JTextField，管理员帐号一字母 A 开头，教师<br>帐号一字母 T 开头，学生帐号以字母 S 开头，登录帐号或密码输入错误会弹出相应的提示对话框。<br>2.学生信息管理模块：管理员用于添加和删除学生信息的模块。<br>3.教师信息管理模块：管理员用于添加和删除教师信息的模块。<br>4.教师密码修改模块和学生密码修改模块：管理员添加的用户帐号的初始密码 与用户的<br>帐号相同，用户通过密码修改模块可以自己需改密码。<br>5.教师录入成绩模块：教师可以浏览选修自己课程的学生的信息并且录入该班学生的成绩<br>6.学生选择选修课模块：该模块通过表格的形式将所有课程列出来，学生可以 根据个人<br>兴趣选择不同的课程，每个学生选择的课程数目不能超过 3 门，而且不能重复选课，否<br>则会弹出对话框，提示用户查看已经选择了的课程。<br>7.学生查询成绩模块：通过表格的形式将该学生选择了的课程列出来，如果教 师有录入<br>成绩，则可以看到自己的课程成绩。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://bboyzjay.com/2019/05/08/C语言/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -520,7 +646,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
